@@ -5,7 +5,7 @@ import { WaveBackground } from '@/componentsNew/wave-background'
 
 const navigationFooter = {
   trials: [
-    { name: 'Cephalonauts one', href: '#', badge: <Badge color="indigo">New</Badge> },
+    { name: 'Cephalonauts One', href: '#', badge: <Badge color="zinc">Soon</Badge> },
     { name: 'FAQ', href: 'faq' },
   ],
   community: [

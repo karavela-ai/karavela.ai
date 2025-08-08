@@ -295,8 +295,7 @@ export default async function Blog({
           What’s happening at Karavela
         </Heading>
         <Lead className="mt-6 max-w-3xl">
-          Stay informed with product updates, company news, and insights on how
-          to sell smarter at your company.
+          Stay informed with company news, brain research publications and data collection updates.
         </Lead>
       </Container>
       {page === 1 && !category && <FeaturedPosts />}
