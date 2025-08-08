@@ -54,7 +54,7 @@ export function Navbar({ showCAT = true, absolute = false }) {
               href="#"
               className="hidden rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 lg:block"
             >
-              Get scanned
+              Join waitlist
             </Link>
           )}
         </div>
@@ -85,7 +85,7 @@ export function Navbar({ showCAT = true, absolute = false }) {
               href="#"
               className="ml-auto rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              Get scanned
+              Join waitlist
             </Link>
             <button
               type="button"
