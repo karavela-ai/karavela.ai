@@ -121,12 +121,9 @@ export function WaveBackground({ fade = 'none' } : WaveBackgroundProps) {
       // canvas width and height should be that of the parent container
       const parent = canvas.parentElement
       if (parent) {
-        console.log('Resizing canvas to parent dimensions:', parent.clientWidth, parent.clientHeight)
         canvas.width = parent.clientWidth
         canvas.height = parent.clientHeight
       } else {
-      // canvas.width = window.innerWidth
-      // canvas.height = window.innerHeight
         canvas.width = 500 // Fallback width
         canvas.height = 500 // Fallback height
       }
