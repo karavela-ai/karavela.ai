@@ -7,7 +7,7 @@ import { apiVersion, dataset, projectId } from './src/sanity/env'
 import { schema } from './src/sanity/schema'
 
 export default defineConfig({
-  name: 'Karavela Studio',
+  name: 'karavela-studio',
   basePath: '/studio',
   projectId,
   dataset,
