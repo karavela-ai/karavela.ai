@@ -6,7 +6,7 @@ import { Heading, Subheading } from '@/componentsNew/text'
 
 function Explain() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white pt-24 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <Subheading>
@@ -16,32 +16,21 @@ function Explain() {
           <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base/7 text-gray-700 lg:max-w-none lg:grid-cols-2">
             <div>
               <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                Id dolor praesent donec est. Odio penatibus risus viverra tellus
-                varius sit neque erat velit. Faucibus commodo massa rhoncus,
-                volutpat. Dignissim sed eget risus enim. Mattis mauris semper
-                sed amet vitae sed turpis id.
+                At Karavela, we strive to push the boundaries of brain research by collecting one of the largest datasets in the world.
+                To this end, we scan healthy participants all across the globe using advanced MRI technology.
               </p>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas.
+                This data is then used to train AI models that can help us better understand the activity of the human brain with minimal social and genetic biases.
+                In particular, these models will be used to help the development of new treatments for neurological and psychiatric disorders.
               </p>
             </div>
             <div>
               <p>
-                Erat pellentesque dictumst ligula porttitor risus eget et eget.
-                Ultricies tellus felis id dignissim eget. Est augue maecenas
-                risus nulla ultrices congue nunc tortor.
+                While doing so, we are committed to ensuring the safety and well-being of all participants.
+                As legally required, our protocols are approved by independent ethics committees which carefully review our research plans.
               </p>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
+                Finally, while we take extensive measures to protect participant data, we also pledge to openly share some of our data with the scientific community, always with the explicit consent of the participants.
               </p>
             </div>
           </div>
@@ -54,40 +43,39 @@ function Explain() {
 const faqs = [
   {
     id: 1,
-    question: "What's the best thing about Switzerland?",
+    question: "Is Magnetic Resonance Imaging dangerous?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "No, Magnetic Resonance Imaging (MRI) is not inherently dangerous. In particular, contrary to X-rays or CT scans, it does not use ionizing radiation."
   },
   {
     id: 2,
-    question: 'How do you make holy water?',
+    question: "Is it harmful to repeatedly participate in MRI sessions?",
     answer:
-      'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora vitae odio inventore fuga aliquam nostrum quod porro. Delectus quia facere id sequi expedita natus.',
+      "No, there is no evidence to suggest that repeated MRI sessions are harmful. Several studies involving hundreds of MRI sessions per participant have shown no adverse effects."
   },
   {
     id: 3,
-    question: 'What do you call someone with no body and no nose?',
+    question: "Are there any side effects of MRI?",
     answer:
-      'Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptas ipsa quia excepturi, quibusdam natus exercitationem sapiente tempore labore voluptatem.',
+      "There can be. MRI is a non-invasive imaging technique and does not use ionizing radiation, so it is generally considered safe. However, some patients may experience mild side effects such as anxiety or claustrophobia due to the enclosed space of the MRI machine. Moreover, as MRI scanners can be very loud, ear protection is often provided to protect participants."
   },
   {
     id: 4,
-    question: 'Why do you never see elephants hiding in trees?',
+    question: "What measures are taken to ensure participant safety?",
     answer:
-      "Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "At Karavela, we prioritize the safety and well-being of our participants. We adhere to strict ethical guidelines and protocols to ensure a safe research environment. This includes thorough screening processes, informed consent, earing protection and continuous monitoring throughout our studies."
   },
   {
     id: 5,
-    question: "Why can't you hear a pterodactyl go to the bathroom?",
+    question: "Can I get my brain scanned?",
     answer:
-      'Because the pee is silent. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quas voluptatibus ex culpa ipsum, aspernatur blanditiis fugiat ullam magnam suscipit deserunt illum natus facilis atque vero consequatur! Quisquam, debitis error.',
+      "Maybe! We are actively recruiting participants for our MRI studies. If you fit the inclusion criteria of one or several of our research protocols, you may be eligible to participate."
   },
   {
     id: 6,
-    question: 'Why did the invisible man turn down the job offer?',
-    answer:
-      "He couldn't see himself doing it. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet perspiciatis officiis corrupti tenetur. Temporibus ut voluptatibus, perferendis sed unde rerum deserunt eius.",
-  },
+    question: "Will my data be shared openly?",
+    answer: "Only if you want to. We encourage participants who attend sessions repeatedly to share their data, but the choice remains yours."
+  }
 ]
 
 function FAQ() {
@@ -121,9 +109,7 @@ export default function FAQPage() {
   return (
     <main className="overflow-hidden">
       <GradientBackground />
-      <Container>
-        <Navbar />
-      </Container>
+      <Navbar />
       <Explain />
       <FAQ />
       <Footer />
