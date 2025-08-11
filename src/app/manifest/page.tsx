@@ -129,9 +129,9 @@ function Manifest() {
           </figure>
 
           <p className="mt-10">
-            Our data collection and modelling endavours are not the end game:
-            they are just a transitional phase to building tools that are useful
-            for patients and medical professionals.
+            Our data collection and modelling endeavours are not the end game,
+            but necessary steps to building tools that are useful for patients
+            and medical professionals.
           </p>
         </div>
 
