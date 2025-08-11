@@ -1,7 +1,4 @@
-import {
-  CheckCircleIcon,
-  InformationCircleIcon,
-} from '@heroicons/react/20/solid'
+import { CheckCircleIcon } from '@heroicons/react/20/solid'
 
 import { Container } from '@/componentsNew/container'
 import { Footer } from '@/componentsNew/footer'
@@ -11,25 +8,30 @@ import { Heading, Subheading } from '@/componentsNew/text'
 
 function Manifest() {
   return (
-    <div className="bg-white px-6 py-32 lg:px-8">
+    <div className="bg-white px-6 py-32 text-justify lg:px-8">
       <div className="mx-auto max-w-3xl text-base/7 text-gray-700">
         <Subheading>Karavela manifest</Subheading>
-        <Heading>A pledge to open and responsible science</Heading>
+        <Heading>A pledge for open and responsible science</Heading>
+
         <p className="mt-6 text-xl/8">
-          Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At
-          arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae
-          feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget.
-          Eleifend egestas fringilla sapien.
+          At Karavela, we are committed to advancing brain research through open
+          and responsible science. We advocate that sharing data and
+          collaborating with the scientific community is essential for
+          accelerating discoveries, improving treatments for neurological and
+          psychiatric disorders and generally understanding the brain better.
         </p>
+
         <div className="mt-10 max-w-2xl text-gray-600">
           <p>
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-            enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-            praesent donec est. Odio penatibus risus viverra tellus varius sit
-            neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-            Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id.
+            Karavela is on a mission to collect one of the largest datasets of
+            brain scans in the world. We believe that this data can help us
+            better understand the human brain and develop new treatments for
+            neurological and psychiatric disorders. Because this data is both
+            very valuable and sensitive, we are committed to sharing it
+            responsibly all the while protecting the privacy and rights of
+            individuals who participate in our research.
           </p>
+
           <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
             <li className="flex gap-x-3">
               <CheckCircleIcon
@@ -38,85 +40,102 @@ function Manifest() {
               />
               <span>
                 <strong className="font-semibold text-gray-900">
-                  Data types.
+                  For science -
                 </strong>{' '}
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                We believe science is safer when shared, double-checked and
+                openly discussed, which is why we will share part of our data,
+                models and results with the scientific community.
               </span>
             </li>
+
             <li className="flex gap-x-3">
               <CheckCircleIcon
                 aria-hidden="true"
                 className="mt-1 size-5 flex-none text-indigo-600"
               />
               <span>
-                <strong className="font-semibold text-gray-900">Loops.</strong>{' '}
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo.
+                <strong className="font-semibold text-gray-900">
+                  For patients -
+                </strong>{' '}
+                We are committed to put our data and models to good use, which
+                is why we prioritise utility in clinical research centered on
+                psychiatry and neurology related disorders.
               </span>
             </li>
+
             <li className="flex gap-x-3">
               <CheckCircleIcon
                 aria-hidden="true"
                 className="mt-1 size-5 flex-none text-indigo-600"
               />
               <span>
-                <strong className="font-semibold text-gray-900">Events.</strong>{' '}
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
-                Et magna sit morbi lobortis.
+                <strong className="font-semibold text-gray-900">
+                  For everyone -
+                </strong>{' '}
+                All brains are different, and we intend to collect data that can
+                benefit the largest number of people across the globe,
+                regardless of age, gender, or background.
               </span>
             </li>
           </ul>
-          <p className="mt-8">
-            Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-            odio id et. Id blandit molestie auctor fermentum dignissim. Lacus
-            diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices
-            hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem
-            vel integer orci.
-          </p>
+
           <h2 className="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900">
-            From beginner to expert in 3 hours
+            Open science is faster and safer
           </h2>
+
           <p className="mt-6">
-            Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat
-            in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum
-            mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-            tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi.
-            Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis
-            diam.
+            Research is most valuable when it is shared and discussed: we pledge
+            to openly share our model training methods and results for the
+            community to inspect our work and to foster reproducibility and
+            allow this field to move at the fastest pace.
           </p>
+
+          <p className="mt-8">
+            Moreover, data acquisition and model training are very expensive and
+            time-consuming, which is why we will allow other teams to use some
+            of our hardly-obtained ressources to advance our common
+            understanding of the brain.
+          </p>
+
+          <h2 className="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900">
+            Clinical research is at the center of our mission
+          </h2>
+
+          <p className="mt-6">
+            We are a passionate team of researchers, engineers and clinicians
+            who are fascinated by the human brain and its mysteries.
+            Nevertheless, we want to make sure that our work converts into
+            activable scientific insights that can bring tangible benefits to
+            patients and the broader community.
+          </p>
+
           <figure className="mt-10 border-l border-indigo-600 pl-9">
             <blockquote className="font-semibold text-gray-900">
-              <p>
-                Vel ultricies morbi odio facilisi ultrices accumsan donec lacus
-                purus. Lectus nibh ullamcorper ac dictum justo in euismod. Risus
-                aenean ut elit massa. In amet aliquet eget cras. Sem volutpat
-                enim tristique.
-              </p>
+              <p>All models are wrong, but some of them are useful.</p>
             </blockquote>
             <figcaption className="mt-6 flex gap-x-4">
               <img
-                alt=""
-                src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                className="size-6 flex-none rounded-full bg-gray-50"
+                alt="George Box"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/GeorgeEPBox.jpg/250px-GeorgeEPBox.jpg"
+                className="size-6 flex-none rounded-full bg-gray-50 object-cover"
               />
               <div className="text-sm/6">
                 <strong className="font-semibold text-gray-900">
-                  Maria Hill
+                  George Box
                 </strong>{' '}
-                – Marketing Manager
+                – Statistician
               </div>
             </figcaption>
           </figure>
+
           <p className="mt-10">
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-            enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-            praesent donec est. Odio penatibus risus viverra tellus varius sit
-            neque erat velit.
+            Our data collection and modelling endavours are not the end game:
+            they are just a transitional phase to building tools that are useful
+            for patients and medical professionals.
           </p>
         </div>
-        <figure className="mt-16">
+
+        {/* <figure className="mt-16">
           <img
             alt=""
             src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
@@ -129,24 +148,28 @@ function Manifest() {
             />
             Faucibus commodo massa rhoncus, volutpat.
           </figcaption>
-        </figure>
+        </figure> */}
+
         <div className="mt-16 max-w-2xl text-gray-600">
           <h2 className="text-3xl font-semibold tracking-tight text-pretty text-gray-900">
-            Everything you need to get up and running
+            Every brain is different, and our data reflects that
           </h2>
+
           <p className="mt-6">
-            Purus morbi dignissim senectus mattis adipiscing. Amet, massa quam
-            varius orci dapibus volutpat cras. In amet eu ridiculus leo sodales
-            cursus tristique. Tincidunt sed tempus ut viverra ridiculus non
-            molestie. Gravida quis fringilla amet eget dui tempor dignissim.
-            Facilisis auctor venenatis varius nunc, congue erat ac. Cras
-            fermentum convallis quam.
+            Brains are widely different from one person to another. Building
+            models of the brain which are useful to the largest proportion of
+            the population requires a diverse dataset that captures this
+            variability. We pledge to acquire data from participants with very
+            diverse backgrounds, including age, gender, ethnicity, and
+            neurological conditions, to ensure our models are representative and
+            effective for everyone.
           </p>
+
           <p className="mt-8">
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-            enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-            praesent donec est. Odio penatibus risus viverra tellus varius sit
-            neque erat velit.
+            Moreover, our data acquisition programs are designed to include many
+            international partners, ensuring a wide range of perspectives and
+            expertise in our research efforts all the while making sure that the
+            protocols we develop can be applied globally.
           </p>
         </div>
       </div>

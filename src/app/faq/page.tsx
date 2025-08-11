@@ -1,4 +1,3 @@
-import { Container } from '@/componentsNew/container'
 import { Footer } from '@/componentsNew/footer'
 import { GradientBackground } from '@/componentsNew/gradient'
 import { Navbar } from '@/componentsNew/navbar'
