@@ -242,6 +242,12 @@ const team = [
     imageUrl:
       '/team/antoine-collas.jpeg',
   },
+  // {
+  //   name: 'Louis Jalouzot',
+  //   role: 'Models team scientist',
+  //   imageUrl:
+  //     '/team/louis-jalouzot.jpeg',
+  // },
   {
     name: 'Charles Maussion',
     role: 'Co-founder / CPO',
