@@ -99,9 +99,11 @@ export function WaveBackground({ fade = 'none' } : WaveBackgroundProps) {
           const distance = Math.sqrt(
             Math.pow(posX - centerX, 2) + Math.pow(posY - centerY, 2)
           )
-          const maxDistance = Math.sqrt(
-            Math.pow(centerX, 2) + Math.pow(centerY, 2)
-          )
+          const maxDistance = canvas.height + 0.25 * canvas.width
+          // const maxDistance = Math.sqrt(
+          //   (Math.pow(canvas.width, 2) + Math.pow(canvas.height, 2)) / 2
+          // )
+          // const maxDistance = (canvas.width + canvas.height) / 2
           opacity = ((maxDistance - distance) / maxDistance) * 0.25 // Opacity based on radial distance
         }
         if (fade === 'none') {
