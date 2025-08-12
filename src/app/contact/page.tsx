@@ -8,7 +8,6 @@ import { useState } from 'react'
 import { Container } from '@/componentsNew/container'
 import { Footer } from '@/componentsNew/footer'
 import { Navbar } from '@/componentsNew/navbar'
-import { set } from 'sanity'
 
 function NotificationSuccess({
   show,
