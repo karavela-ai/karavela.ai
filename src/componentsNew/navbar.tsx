@@ -8,10 +8,10 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const navigation = [
-  { name: 'Manifest', href: 'manifest' },
-  { name: 'Company', href: 'companyNew' },
-  { name: 'News', href: 'news' },
-  { name: 'Contact', href: 'contact' },
+  { name: 'Manifest', href: '/manifest' },
+  { name: 'Company', href: '/companyNew' },
+  { name: 'News', href: '/news' },
+  { name: 'Contact', href: '/contact' },
 ]
 
 export function Navbar({ showCAT = true, absolute = false }) {
