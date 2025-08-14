@@ -2,10 +2,10 @@
 
 import Link from 'next/link'
 
-import { Container } from '@/componentsNew/container'
-import { Footer } from '@/componentsNew/footer'
-import { Navbar } from '@/componentsNew/navbar'
-import { WaveBackground } from '@/componentsNew/wave-background'
+import { Container } from '@/components/container'
+import { Footer } from '@/components/footer'
+import { Navbar } from '@/components/navbar'
+import { WaveBackground } from '@/components/wave-background'
 
 function Hero() {
   return (

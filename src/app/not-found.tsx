@@ -2,9 +2,9 @@
 
 import Link from 'next/link'
 
-import { GradientBackground } from '@/componentsNew/gradient'
-import { Footer } from '@/componentsNew/footer'
-import { Navbar } from '@/componentsNew/navbar'
+import { GradientBackground } from '@/components/gradient'
+import { Footer } from '@/components/footer'
+import { Navbar } from '@/components/navbar'
 
 function NotFound() {
   return (

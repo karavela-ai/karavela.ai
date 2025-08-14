@@ -1,10 +1,10 @@
 import { CheckCircleIcon } from '@heroicons/react/20/solid'
 
-import { Container } from '@/componentsNew/container'
-import { Footer } from '@/componentsNew/footer'
-import { GradientBackground } from '@/componentsNew/gradient'
-import { Navbar } from '@/componentsNew/navbar'
-import { Heading, Subheading } from '@/componentsNew/text'
+import { Container } from '@/components/container'
+import { Footer } from '@/components/footer'
+import { GradientBackground } from '@/components/gradient'
+import { Navbar } from '@/components/navbar'
+import { Heading, Subheading } from '@/components/text'
 
 function Manifest() {
   return (

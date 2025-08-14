@@ -5,9 +5,9 @@ import { XMarkIcon } from '@heroicons/react/20/solid'
 import { CheckCircleIcon, ExclamationCircleIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 
-import { Container } from '@/componentsNew/container'
-import { Footer } from '@/componentsNew/footer'
-import { Navbar } from '@/componentsNew/navbar'
+import { Container } from '@/components/container'
+import { Footer } from '@/components/footer'
+import { Navbar } from '@/components/navbar'
 
 function NotificationSuccess({
   show,

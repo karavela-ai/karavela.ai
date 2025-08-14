@@ -1,10 +1,10 @@
-import { Button } from '@/components/button'
-import { Container } from '@/components/container'
-import { Footer } from '@/components/footer'
-import { GradientBackground } from '@/components/gradient'
-import { Link } from '@/components/link'
-import { Navbar } from '@/components/navbar'
-import { Heading, Lead, Subheading } from '@/components/text'
+import { Button } from '@/componentsOld/button'
+import { Container } from '@/componentsOld/container'
+import { Footer } from '@/componentsOld/footer'
+import { GradientBackground } from '@/componentsOld/gradient'
+import { Link } from '@/componentsOld/link'
+import { Navbar } from '@/componentsOld/navbar'
+import { Heading, Lead, Subheading } from '@/componentsOld/text'
 import { image } from '@/sanity/image'
 import {
   getCategories,

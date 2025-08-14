@@ -1,7 +1,7 @@
-import { Footer } from '@/componentsNew/footer'
-import { GradientBackground } from '@/componentsNew/gradient'
-import { Navbar } from '@/componentsNew/navbar'
-import { Heading, Subheading } from '@/componentsNew/text'
+import { Footer } from '@/components/footer'
+import { GradientBackground } from '@/components/gradient'
+import { Navbar } from '@/components/navbar'
+import { Heading, Subheading } from '@/components/text'
 
 function Explain() {
   return (
