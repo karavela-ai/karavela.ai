@@ -209,21 +209,21 @@ function Values() {
   return (
     <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
       <div className="mx-auto max-w-2xl lg:mx-0">
-        <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white">
+        <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
           Our values
         </h2>
-        <p className="mt-6 text-lg/8 text-gray-700 dark:text-gray-300">
+        <p className="mt-6 text-lg/8 text-gray-700">
           We strive to build a diverse team of independent, cool-headed and
           dedicated experts who share a set of common core values.
         </p>
       </div>
-      <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base/7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-16 dark:text-gray-400">
+      <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base/7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-16">
         {values.map((value) => (
           <div key={value.name} className="relative pl-9">
-            <dt className="inline font-semibold text-gray-900 dark:text-white">
+            <dt className="inline font-semibold text-gray-900">
               <value.icon
                 aria-hidden="true"
-                className="absolute top-1 left-1 size-5 text-indigo-600 dark:text-indigo-500"
+                className="absolute top-1 left-1 size-5 text-indigo-600"
               />
               {value.name}
             </dt>{' '}
@@ -343,10 +343,10 @@ function Team() {
 
 function Join() {
   return (
-    <div className="bg-white dark:bg-gray-900">
+    <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
         <div>
-          <h2 className="max-w-2xl text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl dark:text-white">
+          <h2 className="max-w-2xl text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
             Feeling like this
             <br />
             could be a good fit?
@@ -366,7 +366,7 @@ function Join() {
           </Link>
           {/* <a
             href="#"
-            className="text-sm/6 font-semibold text-gray-900 hover:opacity-80 dark:text-gray-100"
+            className="text-sm/6 font-semibold text-gray-900 hover:opacity-80"
           >
             Learn more
             <span aria-hidden="true">→</span>
