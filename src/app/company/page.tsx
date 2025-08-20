@@ -176,7 +176,7 @@ const values = [
   {
     name: 'Be a teamplayer.',
     description:
-      'We like working with others, and like people who keep the team spirit high.',
+      'We like working with others, and like people who keep the team spirits high.',
     icon: UserGroupIcon,
   },
   {
