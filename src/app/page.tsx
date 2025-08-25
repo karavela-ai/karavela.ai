@@ -4,8 +4,9 @@ import Link from 'next/link'
 
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
-import { Navbar } from '@/components/navbar'
+import { Navbar, CAThref } from '@/components/navbar'
 import { WaveBackground } from '@/components/wave-background'
+import { CompanyHero } from '@/components/companyHero'
 
 function Hero() {
   return (
@@ -46,7 +47,7 @@ function Hero() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href={CAThref}
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Join waitlist
@@ -79,7 +80,7 @@ function Partners() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-lg/8 font-semibold text-gray-900">
-          We partnered with the best investment and research teams
+          We partnered with the best investment teams
         </h2>
         <div
           // className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5"
@@ -138,14 +139,14 @@ function Trial() {
           Karavela is recruiting healthy volunteers to participate in a large
           brain MRI trial. Learn more about your brain while contributing to
           important research by joining{' '}
-          <span className="italic underline decoration-gray-800 decoration-dotted decoration-1 underline-offset-4">
+          <span className="italic font-light text-indigo-700">
             Cephalonauts One
           </span>
           , our first clinical trial.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a
-            href="#"
+            href={CAThref}
             className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Join waitlist
@@ -167,6 +168,7 @@ export default function Home() {
       </div>
       <Hero />
       <Partners />
+      <CompanyHero showGradient={false} />
       <Container className="mt-32 bg-indigo-50 sm:mt-40">
         <Trial />
       </Container>

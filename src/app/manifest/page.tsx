@@ -177,7 +177,7 @@ function Manifest() {
   )
 }
 
-export default function Home() {
+export default function Page() {
   return (
     <main className="overflow-hidden">
       <GradientBackground />

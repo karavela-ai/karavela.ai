@@ -7,6 +7,8 @@ import clsx from 'clsx'
 import Link from 'next/link'
 import { useState } from 'react'
 
+export const CAThref = '/trials/cephalonauts-one'
+
 const navigation = [
   { name: 'Manifest', href: '/manifest' },
   { name: 'Solutions', href: '/solutions' },
@@ -52,7 +54,7 @@ export function Navbar({ showCAT = true, absolute = false }) {
           </a> */}
           {showCAT && (
             <Link
-              href="#"
+              href={CAThref}
               className="hidden rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 lg:block"
             >
               Join waitlist
@@ -83,7 +85,7 @@ export function Navbar({ showCAT = true, absolute = false }) {
               <img alt="Karavela" src="/karavela.png" className="h-8" />
             </Link>
             <Link
-              href="#"
+              href={CAThref}
               className="ml-auto rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Join waitlist
