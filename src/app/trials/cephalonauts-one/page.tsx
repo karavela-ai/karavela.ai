@@ -56,7 +56,7 @@ function Header() {
 
 function Conditions() {
   return (
-    <div className="bg-white px-6 pt-32 text-justify lg:px-8">
+    <div className="bg-white px-6 pt-24 text-justify lg:px-8">
       <div className="mx-auto max-w-3xl text-base/7 text-gray-700">
         <div className="max-w-2xl text-gray-600">
           <h2 className="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900">
@@ -78,7 +78,7 @@ function Conditions() {
 
 function AdditionalConditions() {
   return (
-    <div className="bg-white px-6 py-32 text-justify lg:px-8">
+    <div className="bg-white px-6 pt-24 pb-32 text-justify lg:px-8">
       <div className="mx-auto max-w-3xl text-base/7 text-gray-700">
         <div className="max-w-2xl text-gray-600">
           <h2 className="mt-16 text-3xl font-semibold tracking-tight text-pretty text-gray-900">
