@@ -70,7 +70,7 @@ function Manifest() {
               />
               <span>
                 <strong className="font-semibold text-gray-900">
-                  For everyone -
+                  For global impact -
                 </strong>{' '}
                 All brains are different, and we intend to collect data that can
                 benefit the largest number of people across the globe,

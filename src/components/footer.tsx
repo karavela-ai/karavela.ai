@@ -4,8 +4,8 @@ import { Badge } from '@/components/catalyst/badge'
 import { WaveBackground } from '@/components/wave-background'
 
 const navigationFooter = {
-  trials: [
-    { name: 'Cephalonauts One', href: '/trials/cephalonauts-one', badge: <Badge color="zinc">Soon</Badge> },
+  studies: [
+    { name: 'Cephalonauts One', href: '/studies/cephalonauts-one', badge: <Badge color="zinc">Soon</Badge> },
     { name: 'FAQ', href: '/faq' },
   ],
   community: [
@@ -49,7 +49,8 @@ export function Footer({ showDivier = true, showSpins = true }) {
               </p>
             </div>
             <p className="text-sm/6 text-balance text-gray-600">
-              Exploring the human brain, one person at a time.
+              {/* Exploring the human brain, one person at a time. */}
+              Building a foundation model of the brain with next-gen magnetic resonance
             </p>
           </div>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
@@ -92,10 +93,10 @@ export function Footer({ showDivier = true, showSpins = true }) {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm/6 font-semibold text-gray-900">
-                  Clinical Trials
+                  Research Studies
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigationFooter.trials.map((item) => (
+                  {navigationFooter.studies.map((item) => (
                     <li key={item.name} className="flex items-center">
                       <a
                         href={item.href}

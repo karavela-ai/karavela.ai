@@ -15,14 +15,14 @@ function Header() {
 
         <p className="mt-6 text-xl/8">
           Karavela is recruiting healthy volunteers to participate in a large
-          brain MRI trial. Embark on this journey with us and help advance
+          brain MRI study. Embark on this journey with us and help advance
           neuroscience by listening to your favorite content while getting your
           brain scanned.
         </p>
 
         <div className="mt-10 max-w-2xl text-gray-600">
           <p className="mt-6">
-            This trial consists in scanning a large number of healthy volunteers
+            This study consists in scanning a large number of healthy volunteers
             using magnetic resonance imaging (MRI). Each participant will
             undergo multiple MRI sessions. The goal is to gather data to better
             understand the way the human brain processes complex information,
@@ -36,7 +36,7 @@ function Header() {
 
           <p className="mt-6">
             Sessions will last between 1 and 1.5 hours, divided in shorter runs
-            of about 5 to 15 minutes each. Participants should stay still in the
+            of about 15 minutes each. Participants should stay still in the
             scanner while listening to natural speech (e.g. podcasts) in their
             mother tongue. They should pay close attention to the content, and
             will be asked to answer questions about it after the session.
@@ -137,7 +137,7 @@ const sections = [
       },
       {
         name: 'Choose stimulus content',
-        cohorts: { Crew: '30%', Voyager: '50%', Explorer: '70%' },
+        cohorts: { Crew: '0%', Voyager: '30%', Explorer: '50%' },
       },
     ],
   },
@@ -184,8 +184,8 @@ const sections = [
       {
         name: 'Open access (pseudonimised)',
         cohorts: {
-          Crew: "Participant's choice",
-          Voyager: "Participant's choice",
+          Crew: "Mandatory",
+          Voyager: "Mandatory",
           Explorer: 'Mandatory',
         },
       },
@@ -414,7 +414,7 @@ function Cohorts() {
   )
 }
 
-function CAT() {
+function CTA() {
   return (
     <div className="overflow-hidden bg-white pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
@@ -428,12 +428,12 @@ function CAT() {
               the future of psychiatry and neurology research, we welcome you
               aboard!
             </p> */}
-            <p className="mt-6 text-base/7 text-gray-600">
+            {/* <p className="mt-6 text-base/7 text-gray-600">
               All participants will be financially compensated for taking part
               in the study. Scanning facilities can be accessed in Paris
               (France), Orléans (France), London (United-Kingdom), Würzburg
               (Germany) and Taipei (Taiwan).
-            </p>
+            </p> */}
             <p className="mt-6 text-base/7 text-gray-600">
               Whether you want to learn more about your brain or help us shape
               the future of psychiatry and neurology research, we welcome you
@@ -454,7 +454,7 @@ function CAT() {
             <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
               <img
                 alt=""
-                src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
+                src="/company/scan_2.jpg"
                 className="aspect-7/5 w-148 max-w-none rounded-2xl bg-gray-50 object-cover max-sm:w-120"
               />
             </div>
@@ -462,14 +462,14 @@ function CAT() {
               <div className="order-first flex w-64 flex-none justify-end self-end max-sm:w-40 lg:w-auto">
                 <img
                   alt=""
-                  src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                  src="/company/headset.jpg"
                   className="aspect-4/3 w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
               <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                 <img
                   alt=""
-                  src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
+                  src="/company/session_2.jpg"
                   className="aspect-7/5 w-148 max-w-none flex-none rounded-2xl bg-gray-50 object-cover max-sm:w-120"
                 />
               </div>
@@ -496,7 +496,7 @@ export default function Page() {
         <Navbar />
       </Container>
       <Header />
-      <CAT />
+      <CTA />
       <Conditions />
       <Cohorts />
       <AdditionalConditions />

@@ -52,7 +52,7 @@ function Hero() {
               >
                 Join waitlist
               </a>
-              <Link href="/manifest" className="text-sm/6 font-semibold text-gray-900">
+              <Link href="/company" className="text-sm/6 font-semibold text-gray-900">
                 Learn more <span aria-hidden="true">→</span>
               </Link>
             </div>
@@ -137,12 +137,12 @@ function Trial() {
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
           Karavela is recruiting healthy volunteers to participate in a large
-          brain MRI trial. Learn more about your brain while contributing to
+          brain MRI study. Learn more about your brain while contributing to
           important research by joining{' '}
           <span className="italic font-light text-indigo-700">
             Cephalonauts One
           </span>
-          , our first clinical trial.
+          , our first research study.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a
@@ -151,7 +151,7 @@ function Trial() {
           >
             Join waitlist
           </a>
-          <Link href="/manifest" className="text-sm/6 font-semibold text-gray-900">
+          <Link href="/studies/cephalonauts-one" className="text-sm/6 font-semibold text-gray-900">
             Learn more <span aria-hidden="true">→</span>
           </Link>
         </div>

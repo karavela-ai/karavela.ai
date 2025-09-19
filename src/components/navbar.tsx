@@ -10,9 +10,9 @@ import { useState } from 'react'
 export const CAThref = '/waitlist'
 
 const navigation = [
-  { name: 'Manifest', href: '/manifest' },
-  { name: 'Solutions', href: '/solutions' },
   { name: 'Company', href: '/company' },
+  { name: 'Solutions', href: '/solutions' },
+  { name: 'Manifest', href: '/manifest' },
   { name: 'News', href: '/news' },
   { name: 'Contact', href: '/contact' },
 ]
