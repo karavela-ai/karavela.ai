@@ -7,7 +7,7 @@ import clsx from 'clsx'
 import Link from 'next/link'
 import { useState } from 'react'
 
-export const CAThref = '/trials/cephalonauts-one'
+export const CAThref = '/waitlist'
 
 const navigation = [
   { name: 'Manifest', href: '/manifest' },
