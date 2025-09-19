@@ -1,11 +1,16 @@
 "use client"
 
 import { useEffect, useState } from 'react'
-import { Container } from '@/components/container'
-import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
-import { Navbar } from '@/components/navbar'
 import Script from 'next/script'
+
+declare global {
+  interface Window {
+    Tally?: {
+      loadEmbeds: () => void
+    }
+  }
+}
 
 export default function Page() {
   const [mounted, setMounted] = useState(false)
