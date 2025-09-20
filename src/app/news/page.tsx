@@ -112,7 +112,7 @@ async function Categories({ selected }: { selected?: string }) {
           anchor="bottom start"
           className="min-w-40 rounded-lg bg-white p-1 shadow-lg ring-1 ring-gray-200 [--anchor-gap:6px] [--anchor-offset:-4px] [--anchor-padding:10px]"
         >
-          <MenuItem>
+          <MenuItem as="div">
             <Link
               href="/news"
               data-selected={selected === undefined ? true : undefined}
@@ -123,7 +123,7 @@ async function Categories({ selected }: { selected?: string }) {
             </Link>
           </MenuItem>
           {categories.map((category) => (
-            <MenuItem key={category.slug}>
+            <MenuItem key={category.slug} as="div">
               <Link
                 href={`/news?category=${category.slug}`}
                 data-selected={category.slug === selected ? true : undefined}

@@ -45,6 +45,7 @@ Test building the website locally with:
 
 ```bash
 npm run build
+npm run start
 ```
 
-You can then deploy the website to Vercel by pushing your code to the `main`, `staging` or `dev` branches respectively.
+You can then deploy the website to Vercel by pushing your code to the `dev`, `staging` or `main` branches of your GitHub repository. Make sure to set the environment variables in your Vercel project settings.
