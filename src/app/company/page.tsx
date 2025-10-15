@@ -8,10 +8,10 @@ import {
 } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 
+import { CompanyHero } from '@/components/companyHero'
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { Navbar } from '@/components/navbar'
-import { CompanyHero } from '@/components/companyHero'
 
 const stats = [
   { label: 'Hours of brain data', value: '10 000+' },
@@ -137,7 +137,7 @@ const team = [
   {
     name: 'Louis Jalouzot',
     role: 'Models team scientist',
-    imageUrl: '/team/louis-jalouzot.jpeg',
+    imageUrl: '/team/louis-jalouzot.jpg',
   },
   {
     name: 'Charles Maussion',

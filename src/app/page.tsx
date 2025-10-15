@@ -4,14 +4,14 @@ import Link from 'next/link'
 
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
-import { Navbar, CAThref } from '@/components/navbar'
+import { Navbar, CTAhref } from '@/components/navbar'
 import { WaveBackground } from '@/components/wave-background'
 import { CompanyHero } from '@/components/companyHero'
 
 function Hero() {
   return (
     <div className="bg-white">
-      <Navbar showCAT={false} absolute={true} />
+      <Navbar showCTA={false} absolute={true} />
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
@@ -47,7 +47,7 @@ function Hero() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href={CAThref}
+                href={CTAhref}
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Join waitlist
@@ -146,7 +146,7 @@ function Trial() {
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a
-            href={CAThref}
+            href={CTAhref}
             className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Join waitlist

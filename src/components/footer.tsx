@@ -11,12 +11,13 @@ const navigationFooter = {
   community: [
     { name: 'GitHub', href: 'https://github.com/karavela-ai/' },
     { name: 'LinkedIn', href: 'https://www.linkedin.com/company/karavela-ai/' },
+    { name: 'Contact', href: '/contact' },
   ],
   company: [
-    { name: 'Manifest', href: '/manifest' },
     { name: 'About us', href: '/company' },
+    { name: 'Careers', href: '/careers' },
+    { name: 'Manifest', href: '/manifest' },
     { name: 'News', href: '/news' },
-    { name: 'Contact', href: '/contact' },
   ],
   // legal: [
   //   { name: 'Terms of service', href: '#' },
