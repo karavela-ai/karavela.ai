@@ -227,7 +227,11 @@ function Team() {
               <h3 className="mt-6 text-base/7 font-semibold tracking-tight text-indigo-400 group-hover:text-indigo-700 transition duration-300">
                 You?
               </h3>
-              <p className="text-sm/6 text-indigo-400 group-hover:text-indigo-700 transition duration-300">Join us!</p>
+              <p className="text-sm/6 text-indigo-400 group-hover:text-indigo-700 transition duration-300">
+                {/* Join us! */}
+                See open positions
+                {' '}<span aria-hidden="true">→</span>
+              </p>
             </li>
           </Link>
         </ul>
