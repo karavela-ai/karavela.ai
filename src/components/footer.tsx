@@ -11,7 +11,7 @@ const navigationFooter = {
   community: [
     { name: 'GitHub', href: 'https://github.com/karavela-ai/' },
     { name: 'LinkedIn', href: 'https://www.linkedin.com/company/karavela-ai/' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Contact us', href: '/contact' },
   ],
   company: [
     { name: 'About us', href: '/company' },

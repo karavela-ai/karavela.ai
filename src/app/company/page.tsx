@@ -5,6 +5,7 @@ import {
   SparklesIcon,
   SunIcon,
   UserGroupIcon,
+  UserPlusIcon,
 } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 
@@ -157,12 +158,25 @@ const team = [
 ]
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const shuffleArray = (array: any[]) => {
-  const shuffled = array
-    .map((value) => ({ value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ value }) => value)
-  return shuffled
+const sortedArray = (array: any[]) => {
+  // Shuffle array
+  // const shuffled = array
+  //   .map((value) => ({ value, sort: Math.random() }))
+  //   .sort((a, b) => a.sort - b.sort)
+  //   .map(({ value }) => value)
+  // return shuffled
+
+  // Sort array by name
+  const sorted = array.sort((a, b) => {
+    if (a.name < b.name) {
+      return -1
+    }
+    if (a.name > b.name) {
+      return 1
+    }
+    return 0
+  })
+  return sorted
 }
 
 function Team() {
@@ -183,7 +197,7 @@ function Team() {
           role="list"
           className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
         >
-          {shuffleArray(team).map((person) => (
+          {sortedArray(team).map((person) => (
             <li key={person.name}>
               <img
                 alt=""
@@ -196,6 +210,26 @@ function Team() {
               <p className="text-sm/6 text-gray-600">{person.role}</p>
             </li>
           ))}
+          <Link href="/careers" className="group">
+            <li>
+              <div className="relative mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-indigo-200 outline-1 -outline-offset-1 outline-indigo-900/10 group-hover:bg-indigo-500 transition overflow-hidden">
+                <div
+                  className="absolute inset-0 flex items-center justify-center transition duration-300 transform group-hover:-translate-y-full group-hover:opacity-0 text-indigo-500"
+                >
+                  <UserPlusIcon className="size-8" aria-hidden="true" />
+                </div>
+                <div
+                  className="absolute inset-0 flex items-center justify-center transition duration-300 transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 text-white"
+                >
+                  <UserGroupIcon className="size-8" aria-hidden="true" />
+                </div>
+              </div>
+              <h3 className="mt-6 text-base/7 font-semibold tracking-tight text-indigo-400 group-hover:text-indigo-700 transition duration-300">
+                You?
+              </h3>
+              <p className="text-sm/6 text-indigo-400 group-hover:text-indigo-700 transition duration-300">Join us!</p>
+            </li>
+          </Link>
         </ul>
       </div>
     </div>
@@ -252,13 +286,13 @@ function Join() {
           >
             Get in touch
           </Link>
-          {/* <a
-            href="#"
+          <Link
+            href="/careers"
             className="text-sm/6 font-semibold text-gray-900 hover:opacity-80"
           >
-            Learn more
+            See open positions{' '}
             <span aria-hidden="true">→</span>
-          </a> */}
+          </Link>
         </div>
       </div>
     </div>

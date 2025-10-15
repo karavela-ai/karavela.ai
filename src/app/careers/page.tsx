@@ -10,7 +10,7 @@ import { Navbar } from '@/components/navbar'
 const positions = [
   {
     title: 'Senior MRI Physicist',
-    salary: '60 - 90k EUR / year',
+    salary: '60k - 90k EUR / year',
     location: 'Paris, France / Partial remote',
     href: 'https://drive.proton.me/urls/ZHAFPXYHA0#ZqFrKOylhJ7t',
     badges: [
@@ -20,7 +20,7 @@ const positions = [
   },
   {
     title: 'Senior Clinical Research Associate',
-    salary: '40 - 80k EUR / year',
+    salary: '40k - 80k EUR / year',
     location: 'Paris, France / Partial remote',
     href: 'https://drive.proton.me/urls/T3DH33GTEM#MwOwTTN22Gon',
     badges: [
@@ -28,8 +28,17 @@ const positions = [
     ],
   },
   {
+    title: 'Senior Research Scientist',
+    salary: '70k - 100k EUR / year',
+    location: 'Paris, France / Partial remote',
+    href: 'https://drive.proton.me/urls/3GCM6NYQ7R#JEiVUO22eZSc',
+    badges: [
+      { label: 'Clinical team', colour: 'teal' },
+    ],
+  },
+  {
     title: 'Junior Research Scientist',
-    salary: '50 - 75k EUR / year',
+    salary: '50k - 75k EUR / year',
     location: 'Paris, France / Partial remote',
     href: 'https://drive.proton.me/urls/4EDG5D897C#pRvRrdYr7LBR',
     badges: [

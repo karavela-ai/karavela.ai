@@ -10,7 +10,7 @@ import { CompanyHero } from '@/components/companyHero'
 
 function Hero() {
   return (
-    <div className="bg-white">
+    <div className="bg-white min-h-screen">
       <Navbar showCTA={false} absolute={true} />
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
