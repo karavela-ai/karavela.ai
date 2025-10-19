@@ -181,7 +181,7 @@ const sortedArray = (array: any[]) => {
 
 function Team() {
   return (
-    <div className="py-24 sm:py-32">
+    <div className="mt-32 sm:mt-40 bg-indigo-50 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
@@ -240,44 +240,17 @@ function Team() {
   )
 }
 
-// function Join() {
-//   return (
-//     <div className="bg-white">
-//       <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
-//         <div className="mx-auto max-w-2xl text-center">
-//           <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
-//             Feeling like this could be a good fit?
-//           </h2>
-//           <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
-//             Karavela is always looking for talented individuals who are
-//             passionate about advancing brain research. We are open to
-//             spontaneous applications and would love to hear from you.
-//           </p>
-//           <div className="mt-10 flex items-center justify-center gap-x-6">
-//             <a
-//               href="contact"
-//               className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-//             >
-//               Get in touch
-//             </a>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
 function Join() {
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
-        <div>
+    <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32  lg:px-8">
+      <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-7xl lg:flex lg:items-center lg:justify-between">
+        <div className="max-w-2xl">
           <h2 className="max-w-2xl text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
             Feeling like this
             <br />
             could be a good fit?
           </h2>
-          <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
+          <p className="mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
             Karavela is always looking for talented individuals who are
             passionate about advancing brain research. We are open to
             spontaneous applications and would love to hear from you.
@@ -306,7 +279,6 @@ function Join() {
 export default function CompanyPage() {
   return (
     <div className="bg-white">
-      {/* <GradientBackground /> */}
       <Container>
         <Navbar />
       </Container>
@@ -314,24 +286,12 @@ export default function CompanyPage() {
       <main className="isolate">
         <CompanyHero />
         <Mission />
-
-        {/* <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-          <img
-            alt=""
-            src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
-            className="aspect-5/2 w-full object-cover outline-1 -outline-offset-1 outline-black/5 xl:rounded-3xl"
-          />
-        </div> */}
-
-        <Container className="mt-32 bg-indigo-50 sm:mt-40">
-          <Team />
-        </Container>
-
+        <Team />
         <Values />
         <Join />
-      </main>
+      </main >
 
       <Footer />
-    </div>
+    </div >
   )
 }
