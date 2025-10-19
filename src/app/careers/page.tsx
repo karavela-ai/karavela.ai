@@ -6,6 +6,7 @@ import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
+import { Heading, Subheading } from '@/components/text'
 
 const positions = [
   {
@@ -54,10 +55,8 @@ function Careers() {
 
       <div className="px-6 py-24 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
-            Karavela is hiring!
-            {/* Hop aboard to build a foundation model of the brain */}
-          </h2>
+          <Subheading className="mt-16">Careers</Subheading>
+          <Heading>Karavela is hiring!</Heading>
           <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
             We are always looking for talented and motivated individuals to join our team and build a foundation model of the brain.
             If you are passionate about AI and neuroscience, we would love to hear from you.
