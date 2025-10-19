@@ -56,7 +56,7 @@ const faqs = [
     id: 3,
     question: "Are there any side effects of MRI?",
     answer:
-      "There can be. MRI is a non-invasive imaging technique and does not use ionizing radiation, so it is generally considered safe. However, some patients may experience mild side effects such as anxiety or claustrophobia due to the enclosed space of the MRI machine. Moreover, as MRI scanners can be very loud, ear protection is often provided to protect participants."
+      "There can be. MRI is a non-invasive imaging technique and does not use ionizing radiation, so it is generally considered safe. However, some patients may experience mild side effects such as anxiety or claustrophobia due to the enclosed space of the MRI machine. Moreover, as MRI scanners can be very loud, ear plugs are generally provided to protect participants."
   },
   {
     id: 4,
