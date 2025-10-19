@@ -88,15 +88,16 @@ export function Navbar({ showCTA = true, absolute = false }) {
         </PopoverGroup>
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-
-          {showCTA && (
-            <Link
-              href={CTAhref}
-              className="hidden rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 lg:block"
-            >
-              Join waitlist
-            </Link>
-          )}
+          <Link
+            href={CTAhref}
+            className={
+              clsx(
+                showCTA ? "visible" : "invisible",
+                "hidden rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 lg:block"
+              )}
+          >
+            Join waitlist
+          </Link>
         </div>
       </nav>
 
