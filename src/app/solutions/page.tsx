@@ -215,9 +215,7 @@ export default function Home() {
   return (
     <main className="overflow-hidden">
       <GradientBackground />
-      <Container>
-        <Navbar />
-      </Container>
+      <Navbar />
       <Solutions />
       <Container className="bg-indigo-50">
         <Trial />
