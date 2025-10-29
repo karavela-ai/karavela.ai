@@ -280,7 +280,7 @@ export default function CompanyPage() {
     <div className="bg-white">
       <Navbar />
 
-      <main className="isolate">
+      <main className="relative isolate">
         <CompanyHero />
         <Mission />
         <Team />

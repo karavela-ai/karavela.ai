@@ -20,3 +20,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.navbar-scrolled {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.6); /* transparent white */
+}

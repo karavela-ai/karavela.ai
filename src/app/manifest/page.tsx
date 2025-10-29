@@ -7,7 +7,7 @@ import { Heading, Subheading } from '@/components/text'
 
 function Manifest() {
   return (
-    <div className="bg-white px-6 py-32 text-justify lg:px-8">
+    <div className="px-6 py-32 text-justify lg:px-8">
       <div className="mx-auto max-w-3xl text-base/7 text-gray-700">
         <Subheading>Karavela manifest</Subheading>
         <Heading>A pledge for open and responsible science</Heading>
@@ -178,7 +178,7 @@ function Manifest() {
 
 export default function Page() {
   return (
-    <main className="overflow-hidden">
+    <main>
       <GradientBackground />
       <Navbar />
       <Manifest />

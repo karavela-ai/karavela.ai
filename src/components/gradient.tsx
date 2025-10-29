@@ -17,14 +17,16 @@ export function Gradient({
 
 export function GradientBackground() {
   return (
-    <div className="relative mx-auto max-w-7xl">
-      <div
-        className={clsx(
-          'absolute -top-44 -right-60 h-60 w-xl transform-gpu md:right-0',
-          'bg-linear-115 from-[#ff80b5] from-50% via-[#9089fc] via-70% to-[#b060ff] opacity-50',
-          'rotate-[-10deg] rounded-full blur-3xl',
-        )}
-      />
+    <div className="absolute mx-auto overflow-x-hidden h-screen w-screen">
+      <div className="relative max-w-7xl mx-auto">
+        <div
+          className={clsx(
+            'absolute -top-44 -right-60 h-60 w-xl transform-gpu md:right-0',
+            'bg-linear-115 from-[#ff80b5] from-50% via-[#9089fc] via-70% to-[#b060ff] opacity-50',
+            'rotate-[-10deg] rounded-full blur-3xl',
+          )}
+        />
+      </div>
     </div>
   )
 }

@@ -11,7 +11,6 @@ import { CompanyHero } from '@/components/companyHero'
 function Hero() {
   return (
     <div className="bg-white min-h-screen">
-      <Navbar showCTA={false} absolute={true} />
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
@@ -77,7 +76,7 @@ function Hero() {
 
 function Partners() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-2xl font-medium text-gray-900">
           We partnered with the best investment teams
@@ -162,10 +161,11 @@ function Trial() {
 
 export default function Home() {
   return (
-    <div className="relative overflow-hidden">
+    <main>
       <div className="absolute h-screen w-screen">
         <WaveBackground fade={'vertical'} />
       </div>
+      <Navbar showCTA={false} />
       <Hero />
       <Partners />
       <CompanyHero showGradient={false} />
@@ -173,6 +173,6 @@ export default function Home() {
         <Trial />
       </Container>
       <Footer showDivier={false} showSpins={false} />
-    </div>
+    </main>
   )
 }

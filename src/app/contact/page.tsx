@@ -7,6 +7,7 @@ import { useState } from 'react'
 
 import { Footer } from '@/components/footer'
 import { Navbar } from '@/components/navbar'
+import { Heading, Subheading } from '@/components/text'
 
 function NotificationSuccess({
   show,
@@ -194,9 +195,8 @@ function Contact({
         />
       </div>
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
-          Get in touch
-        </h2>
+        <Subheading>Contact form</Subheading>
+        <Heading>Get in touch!</Heading>
         <p className="mt-2 text-lg/8 text-gray-600">
           Whether you are an individual interested in participating in forefront
           brain research, a research center open to data acquisition
@@ -359,7 +359,7 @@ export default function ContactPage() {
   const [showError, setShowError] = useState(false)
 
   return (
-    <main className="overflow-hidden">
+    <main>
       <Navbar />
       <Contact setShowSuccess={setShowSuccess} setShowError={setShowError} />
       <Footer />

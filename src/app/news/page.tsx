@@ -284,7 +284,7 @@ export default async function Blog({
     typeof params.category === 'string' ? params.category : undefined
 
   return (
-    <main className="overflow-hidden">
+    <main>
       <GradientBackground />
       <Navbar />
       <Container className="mt-16 sm:mt-24">
