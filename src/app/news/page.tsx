@@ -286,9 +286,7 @@ export default async function Blog({
   return (
     <main className="overflow-hidden">
       <GradientBackground />
-      <Container>
-        <Navbar />
-      </Container>
+      <Navbar />
       <Container className="mt-16 sm:mt-24">
         <Subheading className="mt-16">Blog</Subheading>
         <Heading as="h1" className="mt-2">

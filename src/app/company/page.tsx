@@ -10,7 +10,6 @@ import {
 import Link from 'next/link'
 
 import { CompanyHero } from '@/components/companyHero'
-import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { Navbar } from '@/components/navbar'
 
@@ -279,9 +278,7 @@ function Join() {
 export default function CompanyPage() {
   return (
     <div className="bg-white">
-      <Container>
-        <Navbar />
-      </Container>
+      <Navbar />
 
       <main className="isolate">
         <CompanyHero />

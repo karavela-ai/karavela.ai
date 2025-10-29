@@ -2,7 +2,6 @@ import { ChevronRightIcon } from '@heroicons/react/20/solid'
 
 import clsx from 'clsx'
 import Link from 'next/link'
-import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
@@ -13,7 +12,7 @@ const positions = [
     title: 'Senior MRI Physicist',
     salary: '60k - 90k EUR / year',
     location: 'Paris, France / Partial remote',
-    href: 'https://drive.proton.me/urls/ZHAFPXYHA0#ZqFrKOylhJ7t',
+    href: 'https://app.dover.com/apply/karavela/6188df19-1b54-480b-92ba-7b9357839fbe',
     badges: [
       { label: 'Data team', colour: 'indigo' },
       { label: 'Models team', colour: 'sky' },
@@ -23,7 +22,7 @@ const positions = [
     title: 'Senior Clinical Research Associate',
     salary: '40k - 80k EUR / year',
     location: 'Paris, France / Partial remote',
-    href: 'https://drive.proton.me/urls/T3DH33GTEM#MwOwTTN22Gon',
+    href: 'https://app.dover.com/apply/karavela/539a1297-4ee1-4d63-a14b-40abcffad5c7',
     badges: [
       { label: 'Data team', colour: 'indigo' },
     ],
@@ -32,21 +31,32 @@ const positions = [
     title: 'Senior Research Scientist',
     salary: '70k - 100k EUR / year',
     location: 'Paris, France / Partial remote',
-    href: 'https://drive.proton.me/urls/3GCM6NYQ7R#JEiVUO22eZSc',
+    href: 'https://app.dover.com/apply/karavela/0433881f-1c64-4a2f-a5c5-2cc1318d3b6e',
     badges: [
       { label: 'Clinical team', colour: 'teal' },
     ],
   },
   {
-    title: 'Junior Research Scientist',
+    title: 'Research Scientist / Engineer',
     salary: '50k - 75k EUR / year',
     location: 'Paris, France / Partial remote',
-    href: 'https://drive.proton.me/urls/4EDG5D897C#pRvRrdYr7LBR',
+    href: 'https://app.dover.com/apply/karavela/296c7a39-8b39-4f76-96f5-90ceda819d71',
     badges: [
       { label: 'Models team', colour: 'sky' },
       { label: 'Clinical team', colour: 'teal' },
     ],
   },
+  {
+    title: 'Research Scientist / Engineer Intern',
+    salary: '20k - 30k EUR / year',
+    location: 'Paris, France / Partial remote',
+    href: 'https://app.dover.com/apply/karavela/f847c281-aeb6-4033-be3e-33cddcc583c7',
+    badges: [
+      { label: 'Models team', colour: 'sky' },
+      { label: 'Clinical team', colour: 'teal' },
+    ],
+
+  }
 ]
 
 function Careers() {
@@ -128,11 +138,10 @@ function Careers() {
 
 export default function Page() {
   return (
-    <main className="overflow-hidden">
+    // <main className="overflow-hidden">
+    <main>
       <GradientBackground />
-      <Container>
-        <Navbar />
-      </Container>
+      <Navbar />
       <Careers />
       <Footer />
     </main>

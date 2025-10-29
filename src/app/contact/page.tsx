@@ -5,7 +5,6 @@ import { XMarkIcon } from '@heroicons/react/20/solid'
 import { CheckCircleIcon, ExclamationCircleIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 
-import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { Navbar } from '@/components/navbar'
 
@@ -361,9 +360,7 @@ export default function ContactPage() {
 
   return (
     <main className="overflow-hidden">
-      <Container>
-        <Navbar />
-      </Container>
+      <Navbar />
       <Contact setShowSuccess={setShowSuccess} setShowError={setShowError} />
       <Footer />
       <NotificationSuccess

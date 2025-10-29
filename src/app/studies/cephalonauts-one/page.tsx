@@ -1,4 +1,3 @@
-import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
@@ -492,9 +491,7 @@ export default function Page() {
   return (
     <main className="overflow-hidden">
       <GradientBackground />
-      <Container>
-        <Navbar />
-      </Container>
+      <Navbar />
       <Header />
       <CTA />
       <Conditions />
