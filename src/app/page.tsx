@@ -11,7 +11,6 @@ import { CompanyHero } from '@/components/companyHero'
 function Hero() {
   return (
     <div className="bg-white min-h-screen">
-      <Navbar showCTA={false} absolute={true} />
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
@@ -77,51 +76,45 @@ function Hero() {
 
 function Partners() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-2xl font-medium text-gray-900">
-          We partnered with the best investment teams
+          We are supported by the best investment teams<br/>
+          and incubators in the industry
         </h2>
         <div
-          // className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5"
-          className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none"
+          // className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none"
+          className="mx-auto mt-10 max-w-lg flex items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none max-w-full flex-wrap"
         >
           <img
             alt="Daphni"
-            src="/investors/daphni-black.png"
+            src="/supports/daphni.svg"
             width={158}
             height={48}
             // className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            className="col-span-1 max-h-12 w-full object-contain"
+            className="max-h-12 object-contain saturate-0 brightness-0"
           />
           <img
             alt="HCVC"
-            src="/investors/hcvc-logo.png"
+            src="/supports/hcvc-logo.png"
             width={158}
             height={48}
-            className="col-span-1 max-h-12 w-full object-contain"
+            className="max-h-12 object-contain"
           />
           <img
             alt="First Momentum"
             src="https://cdn.prod.website-files.com/664f311a27354ca053b30013/664f5c8c4c8551f189f72cbb_LOGO.svg"
             width={158}
             height={48}
-            className="col-span-1 max-h-12 w-full object-contain"
-          />
-          {/* <img
-            alt="HCVC"
-            src="/investors/hcvc-logo.png"
-            width={158}
-            height={48}
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            className="max-h-12 object-contain"
           />
           <img
-            alt="First Momentum"
-            src="https://cdn.prod.website-files.com/664f311a27354ca053b30013/664f5c8c4c8551f189f72cbb_LOGO.svg"
+            alt="Agoranov"
+            src="/supports/agoranov.png"
             width={158}
             height={48}
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-          /> */}
+            className="max-h-12 object-contain saturate-0"
+          />
         </div>
       </div>
     </div>
@@ -162,10 +155,11 @@ function Trial() {
 
 export default function Home() {
   return (
-    <div className="relative overflow-hidden">
+    <main>
       <div className="absolute h-screen w-screen">
         <WaveBackground fade={'vertical'} />
       </div>
+      <Navbar showCTA={false} />
       <Hero />
       <Partners />
       <CompanyHero showGradient={false} />
@@ -173,6 +167,6 @@ export default function Home() {
         <Trial />
       </Container>
       <Footer showDivier={false} showSpins={false} />
-    </div>
+    </main>
   )
 }

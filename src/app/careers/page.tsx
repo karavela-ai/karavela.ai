@@ -138,7 +138,6 @@ function Careers() {
 
 export default function Page() {
   return (
-    // <main className="overflow-hidden">
     <main>
       <GradientBackground />
       <Navbar />

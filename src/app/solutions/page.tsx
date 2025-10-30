@@ -213,7 +213,7 @@ function Trial() {
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main>
       <GradientBackground />
       <Navbar />
       <Solutions />

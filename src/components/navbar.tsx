@@ -8,7 +8,8 @@ import {
 } from '@heroicons/react/24/outline'
 import clsx from 'clsx'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
 
 const company = [
   { name: 'About us', href: '/company', description: 'Learn more about our company values and mission' },
@@ -23,14 +24,33 @@ const company = [
 
 export const CTAhref = '/waitlist'
 
-export function Navbar({ showCTA = true, absolute = false }) {
+export function Navbar({ showCTA = true }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname(); // triggers when route changes in App Router
+
+  useEffect(() => {
+    // run once on mount & whenever pathname changes (so we recompute on navigation)
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
+
+    // initial check (important when navigating between pages)
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [pathname]); // re-run when path changes so we recalc scroll state
 
   return (
     <header
       className={clsx(
-        absolute ? 'absolute' : 'relative',
-        'z-50 w-full bg-transparent',
+        'navbar-karavela',
+        scrolled ? 'navbar-scrolled' : '',
+        'sticky top-0',
+        'z-50 w-full transition duration-500',
       )}
     >
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">

@@ -5,7 +5,7 @@ import { Heading, Subheading } from '@/components/text'
 
 function Explain() {
   return (
-    <div className="bg-white pt-24 sm:pt-32">
+    <div className="pt-24 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <Subheading>
@@ -79,7 +79,7 @@ const faqs = [
 
 function FAQ() {
   return (
-    <div className="bg-white">
+    <div>
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
         <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
           Frequently asked questions
@@ -106,7 +106,7 @@ function FAQ() {
 
 export default function FAQPage() {
   return (
-    <main className="overflow-hidden">
+    <main>
       <GradientBackground />
       <Navbar />
       <Explain />
