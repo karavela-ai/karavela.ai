@@ -84,7 +84,7 @@ function Partners() {
         </h2>
         <div
           // className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none"
-          className="mx-auto mt-10 max-w-lg flex items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none"
+          className="mx-auto mt-10 max-w-lg flex items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none max-w-full flex-wrap"
         >
           <img
             alt="Daphni"
@@ -92,28 +92,28 @@ function Partners() {
             width={158}
             height={48}
             // className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            className="max-h-12 w-full object-contain fill-black saturate-0 brightness-0"
+            className="max-h-12 object-contain saturate-0 brightness-0"
           />
           <img
             alt="HCVC"
             src="/supports/hcvc-logo.png"
             width={158}
             height={48}
-            className="max-h-12 w-full object-contain"
+            className="max-h-12 object-contain"
           />
           <img
             alt="First Momentum"
             src="https://cdn.prod.website-files.com/664f311a27354ca053b30013/664f5c8c4c8551f189f72cbb_LOGO.svg"
             width={158}
             height={48}
-            className="max-h-12 w-full object-contain"
+            className="max-h-12 object-contain"
           />
           <img
             alt="Agoranov"
             src="/supports/agoranov.png"
             width={158}
             height={48}
-            className="max-h-12 w-full object-contain saturate-0"
+            className="max-h-12 object-contain saturate-0"
           />
         </div>
       </div>
