@@ -92,10 +92,10 @@ function AdditionalConditions() {
           </p>
 
           <p className="mt-6">
-            All data collected will be stored securely by Karavela. Depending on
-            the cohort, collected data will be shared openly with the rest of
-            the scientific community. In all cases, the identity of participants
-            will be kept confidential.
+            All data collected will be stored securely by Karavela.
+            Subject to your explicit consent, collected data will be shared openly
+            with the rest of the scientific community.
+            In all cases, the identity of participants will be kept confidential.
           </p>
         </div>
       </div>
@@ -108,21 +108,21 @@ const cohorts = [
     name: 'Crew',
     id: 'cohort-crew',
     href: '#',
-    sessions: '2+',
+    sessions: '3',
     mostPopular: false,
   },
   {
     name: 'Voyager',
     id: 'cohort-voyager',
     href: '#',
-    sessions: '5+',
+    sessions: '3-10',
     mostPopular: false,
   },
   {
     name: 'Explorer',
     id: 'cohort-explorer',
     href: '#',
-    sessions: '15+',
+    sessions: '10-100',
     mostPopular: false,
   },
 ]
@@ -136,7 +136,7 @@ const sections = [
       },
       {
         name: 'Choose stimulus content',
-        cohorts: { Crew: '0%', Voyager: '30%', Explorer: '50%' },
+        cohorts: { Crew: 'None', Voyager: 'Punctually', Explorer: 'Often' },
       },
     ],
   },
@@ -158,35 +158,6 @@ const sections = [
       {
         name: 'Dedicated web viewer',
         cohorts: { Crew: false, Voyager: false, Explorer: true },
-      },
-    ],
-  },
-  {
-    name: 'Data usage policy',
-    features: [
-      {
-        name: 'AI model training',
-        cohorts: {
-          Crew: 'Mandatory',
-          Voyager: 'Mandatory',
-          Explorer: 'Mandatory',
-        },
-      },
-      {
-        name: 'Downstream medical applications',
-        cohorts: {
-          Crew: 'Mandatory',
-          Voyager: 'Mandatory',
-          Explorer: 'Mandatory',
-        },
-      },
-      {
-        name: 'Open access (pseudonimised)',
-        cohorts: {
-          Crew: "Mandatory",
-          Voyager: "Mandatory",
-          Explorer: 'Mandatory',
-        },
       },
     ],
   },
