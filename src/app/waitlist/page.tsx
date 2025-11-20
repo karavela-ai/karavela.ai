@@ -12,7 +12,7 @@ export default function Page() {
     <main className="overflow-hidden">
       <GradientBackground />
       <Navbar />
-      <div className="mt-16 mb-16 px-6 sm:py-32 lg:px-8">
+      <div className="mb-8 px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl">
           <Subheading className="mt-16">Cephalonauts One</Subheading>
           <Heading className="mb-16">Apply to our cohort of healthy participants</Heading>
