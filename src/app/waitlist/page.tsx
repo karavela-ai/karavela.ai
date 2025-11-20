@@ -1,51 +1,37 @@
 "use client"
 
-import { useEffect, useState } from 'react'
+import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
+import { Navbar } from '@/components/navbar'
+import { Heading, Subheading } from '@/components/text'
 import Script from 'next/script'
 
-declare global {
-  interface Window {
-    Tally?: {
-      loadEmbeds: () => void
-    }
-  }
-}
 
 export default function Page() {
-  const [mounted, setMounted] = useState(false)
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
-
-  useEffect(() => {
-    if (mounted && typeof window !== 'undefined' && window.Tally) {
-      window.Tally.loadEmbeds()
-    }
-  }, [mounted])
-
   return (
     <main className="overflow-hidden">
       <GradientBackground />
-      <div className="h-screen mt-16 mb-32 flex justify-center">
-        {mounted && (
+      <Navbar />
+      <div className="mt-16 mb-16 px-6 sm:py-32 lg:px-8">
+        <div className="mx-auto max-w-2xl">
+          <Subheading className="mt-16">Cephalonauts One</Subheading>
+          <Heading className="mb-16">Apply to our cohort of healthy participants</Heading>
+
           <iframe
-            data-tally-src="https://tally.so/r/wg2aNN?transparentBackground=1"
+            data-tally-src="https://tally.so/embed/wg2aNN?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            loading="lazy"
             width="100%"
-            height="100%"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
-            title="Waitlist for Cephalonauts study"
+            height="1486"
+            title="Cephalonauts One study"
           />
-        )}
-        <Script
-          id="tally-js"
-          src="https://tally.so/widgets/embed.js"
-          strategy="afterInteractive"
-        />
+          <Script
+            id="tally-js"
+            src="https://tally.so/widgets/embed.js"
+            strategy="afterInteractive"
+          />
+        </div>
       </div>
+      <Footer />
     </main>
   )
 }
