@@ -7,7 +7,7 @@ import { Fragment } from 'react'
 
 function Header() {
   return (
-    <div className="bg-white px-6 pt-32 text-justify lg:px-8">
+    <div className="px-6 pt-32 text-justify lg:px-8">
       <div className="mx-auto max-w-3xl text-base/7 text-gray-700">
         <Subheading>Cephalonauts One</Subheading>
         <Heading>Get your brain scanned and help advance science</Heading>

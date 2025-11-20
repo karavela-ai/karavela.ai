@@ -5,7 +5,7 @@ import { Heading, Subheading } from '@/components/text'
 
 function Header() {
   return (
-    <div className="bg-white px-6 pt-32 text-justify lg:px-8">
+    <div className="px-6 pt-32 pb-32 text-justify lg:px-8">
       <div className="mx-auto max-w-3xl text-base/7 text-gray-700">
         <Subheading>Cephalonauts One</Subheading>
         <Heading>Page under construction</Heading>
