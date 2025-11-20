@@ -17,7 +17,7 @@ export function Gradient({
 
 export function GradientBackground() {
   return (
-    <div className="absolute mx-auto overflow-x-hidden h-screen w-screen">
+    <div className="absolute mx-auto overflow-x-hidden h-screen w-screen -z-5">
       <div className="relative max-w-7xl mx-auto">
         <div
           className={clsx(

@@ -8,7 +8,7 @@ import { Heading, Subheading } from '@/components/text'
 
 function Solutions() {
   return (
-    <div className="bg-white px-6 py-32 text-justify lg:px-8">
+    <div className="px-6 py-32 text-justify lg:px-8">
       <div className="mx-auto max-w-3xl text-base/7 text-gray-700">
         <Subheading>Karavela solutions</Subheading>
         <Heading>Boosting clinical trials with valuable insights</Heading>
