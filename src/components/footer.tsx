@@ -46,7 +46,7 @@ export function Footer({ showDivier = true, showSpins = true }) {
             <div className="flex flex-row items-center gap-x-4">
               <img alt="Karavela" src="/karavela.png" className="h-7" />
               <p className="text-gradient text-3xl font-semibold text-indigo-500">
-                karavela.ai
+                karavela
               </p>
             </div>
             <p className="text-sm/6 text-balance text-gray-600">

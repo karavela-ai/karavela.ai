@@ -6,6 +6,7 @@ import {
   SunIcon,
   UserGroupIcon,
   UserPlusIcon,
+  CursorArrowRippleIcon,
 } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 
@@ -72,11 +73,17 @@ const values = [
       'We like working with others, and like people who keep the team spirits high.',
     icon: UserGroupIcon,
   },
+  // {
+  //   name: 'Be transparent.',
+  //   description:
+  //     'We believe that scientific knowledge and data, just like chocolate, are better when shared.',
+  //   icon: ChatBubbleLeftRightIcon,
+  // },
   {
-    name: 'Be transparent.',
+    name: 'Be proactive and meticulous.',
     description:
-      'We believe that scientific knowledge and data, just like chocolate, are better when shared.',
-    icon: ChatBubbleLeftRightIcon,
+      'We love fast, rigorous thinkers who take initiative and pay attention to details.',
+    icon: CursorArrowRippleIcon,
   },
   {
     name: 'Stay open-minded.',
