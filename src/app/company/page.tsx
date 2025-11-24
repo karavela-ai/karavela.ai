@@ -1,12 +1,11 @@
 import {
   ArrowTrendingUpIcon,
   BoltIcon,
-  ChatBubbleLeftRightIcon,
-  SparklesIcon,
   SunIcon,
   UserGroupIcon,
   UserPlusIcon,
   CursorArrowRippleIcon,
+  ChatBubbleLeftRightIcon,
 } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 
@@ -68,17 +67,11 @@ const values = [
     icon: BoltIcon,
   },
   {
-    name: 'Be a teamplayer.',
+    name: 'Be a team player.',
     description:
       'We like working with others, and like people who keep the team spirits high.',
     icon: UserGroupIcon,
   },
-  // {
-  //   name: 'Be transparent.',
-  //   description:
-  //     'We believe that scientific knowledge and data, just like chocolate, are better when shared.',
-  //   icon: ChatBubbleLeftRightIcon,
-  // },
   {
     name: 'Be proactive and meticulous.',
     description:
@@ -86,11 +79,17 @@ const values = [
     icon: CursorArrowRippleIcon,
   },
   {
-    name: 'Stay open-minded.',
+    name: 'Stay transparent.',
     description:
-      "It's hard to know what we don't know. Let's be open to new ideas and perspectives.",
-    icon: SparklesIcon,
+      'We believe that scientific knowledge and data, just like chocolate, are better when shared.',
+    icon: ChatBubbleLeftRightIcon,
   },
+  // {
+  //   name: 'Stay open-minded.',
+  //   description:
+  //     "It's hard to know what we don't know. Let's be open to new ideas and perspectives.",
+  //   icon: SparklesIcon,
+  // },
   {
     name: 'Think long-term.',
     description:
