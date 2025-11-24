@@ -63,19 +63,19 @@ const values = [
   {
     name: 'Be bold.',
     description:
-      "Let's take risks and try new things. Also, if you got that pun, maybe you should write to us.",
+      "Let's take risks and try new things. Also, if you got the previous pun, maybe you should write to us.",
     icon: BoltIcon,
   },
   {
     name: 'Be a team player.',
     description:
-      'We like working with others, and like people who keep the team spirits high.',
+      'We enjoy working with others, and like people who keep the team spirits high.',
     icon: UserGroupIcon,
   },
   {
     name: 'Be proactive and meticulous.',
     description:
-      'We love fast, rigorous thinkers who take initiative and pay attention to details.',
+      'We love rapid, rigorous thinkers who take initiative and pay attention to details.',
     icon: CursorArrowRippleIcon,
   },
   {
