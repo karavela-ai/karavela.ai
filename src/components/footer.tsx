@@ -18,6 +18,7 @@ const navigationFooter = {
     { name: 'Careers', href: '/careers' },
     { name: 'Manifest', href: '/manifest' },
     { name: 'News', href: '/news' },
+    { name: 'Legal notice', href: '/legal' },
   ],
   // legal: [
   //   { name: 'Terms of service', href: '#' },
