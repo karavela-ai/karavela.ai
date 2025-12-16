@@ -10,8 +10,11 @@ function Legal() {
     <div className="relative isolate bg-transparent overflow-hidden">
       <div className="px-6 py-24 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl">
-          <Heading>Legal notice</Heading>
-          <p className="mt-8 text-base/8 text-gray-600 text-justify">
+          <Heading className="mb-10">Legal notice</Heading>
+
+          <div className="mb-6 text-xl font-semibold text-gray-900">Editor</div>
+
+          <p className="text-base/8 text-gray-600 text-justify">
             In accordance with the provisions of article 6(I) (1) of law no. 2004-575 of 21 June 2004 on confidence in the digital economy, the publisher of the website <span className="font-mono text-indigo-500 font-semibold">https://karavela.ai/</span> is:<br /><br />
 
             Karavela, a simplified joint stock company with capital of EUR 1,500, listed on the Paris Trade and Companies Register (R.C.S.) under number 944 250 448, with registered offices at 15 RUE ROLLIN, 75005 PARIS, FRANCE.<br /><br />
