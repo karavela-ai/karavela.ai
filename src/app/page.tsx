@@ -91,7 +91,6 @@ function Partners() {
             src="/supports/daphni.svg"
             width={158}
             height={48}
-            // className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             className="max-h-12 object-contain saturate-0 brightness-0"
           />
           <img
@@ -114,6 +113,13 @@ function Partners() {
             width={158}
             height={48}
             className="max-h-12 object-contain saturate-0"
+          />
+          <img
+            alt="BPI France"
+            src="/supports/bpi.svg"
+            width={158}
+            height={48}
+            className="max-h-12 object-contain saturate-0 brightness-0"
           />
         </div>
       </div>
