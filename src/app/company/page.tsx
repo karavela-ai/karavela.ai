@@ -147,18 +147,18 @@ const team = [
   },
   {
     name: 'Charles Maussion',
-    role: 'Co-founder / CPO',
+    role: 'CPO',
     imageUrl: '/team/charles-maussion.jpeg',
   },
   {
     name: 'Bertrand Thirion',
-    role: 'Co-founder / CSO',
+    role: 'CSO',
     imageUrl: '/team/bertrand-thirion.jpeg',
   },
   {
     name: 'Alexis Thual',
-    role: 'Co-founder / CEO',
-    imageUrl: '/team/alexis-thual.jpeg',
+    role: 'CEO',
+    imageUrl: '/team/alexis-thual.jpg',
   },
 ]
 
