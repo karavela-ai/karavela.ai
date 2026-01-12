@@ -15,6 +15,7 @@ const positions = [
     href: 'https://app.dover.com/apply/karavela/3a2b6d90-73d6-4fe9-83bc-479d6cc8ed1a',
     badges: [
       { label: 'Data team', colour: 'indigo' },
+      { label: 'Models team', colour: 'sky' },
     ],
   },
   {
