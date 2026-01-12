@@ -9,36 +9,26 @@ import { Heading, Subheading } from '@/components/text'
 
 const positions = [
   {
-    title: 'Senior MRI Physicist',
-    salary: '60k - 90k EUR / year',
+    title: 'Back-end Engineer',
+    salary: '40k - 70k EUR / year',
     location: 'Paris, France / Partial remote',
-    href: 'https://app.dover.com/apply/karavela/6188df19-1b54-480b-92ba-7b9357839fbe',
-    badges: [
-      { label: 'Data team', colour: 'indigo' },
-      { label: 'Models team', colour: 'sky' },
-    ],
-  },
-  {
-    title: 'Senior Clinical Research Associate',
-    salary: '40k - 80k EUR / year',
-    location: 'Paris, France / Partial remote',
-    href: 'https://app.dover.com/apply/karavela/539a1297-4ee1-4d63-a14b-40abcffad5c7',
+    href: 'https://app.dover.com/apply/karavela/3a2b6d90-73d6-4fe9-83bc-479d6cc8ed1a',
     badges: [
       { label: 'Data team', colour: 'indigo' },
     ],
   },
   {
-    title: 'Senior Research Scientist',
-    salary: '70k - 100k EUR / year',
+    title: 'Clinical Research Associate',
+    salary: '25k - 40k EUR / year',
     location: 'Paris, France / Partial remote',
-    href: 'https://app.dover.com/apply/karavela/0433881f-1c64-4a2f-a5c5-2cc1318d3b6e',
+    href: 'https://app.dover.com/apply/karavela/48cb5322-110c-4d0b-a1e5-d0b8b6ae81cc',
     badges: [
-      { label: 'Clinical team', colour: 'teal' },
+      { label: 'Data team', colour: 'indigo' },
     ],
   },
   {
     title: 'Research Scientist / Engineer',
-    salary: '50k - 75k EUR / year',
+    salary: '50k - 80k EUR / year',
     location: 'Paris, France / Partial remote',
     href: 'https://app.dover.com/apply/karavela/296c7a39-8b39-4f76-96f5-90ceda819d71',
     badges: [
