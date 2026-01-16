@@ -59,17 +59,8 @@ function Careers() {
           <Subheading className="mt-16">Careers</Subheading>
           <Heading>Karavela is hiring!</Heading>
           <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
-            We are always looking for talented and motivated individuals to join our team and build a foundation model of the brain.
-            If you are passionate about AI and neuroscience, we would love to hear from you.
+            We are looking for talented and motivated individuals to join our team and build a foundation model of the brain.
           </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Link
-              href="/contact"
-              className="rounded-md bg-indigo-600 px-3 py-2 text-base font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Get in touch
-            </Link>
-          </div>
         </div>
       </div>
 
@@ -121,6 +112,24 @@ function Careers() {
 
         </div>
       </div>
+
+      <div className="px-6 lg:px-8 mb-24">
+        <div className="mx-auto max-w-2xl text-center">
+          <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
+            Didn't find the perfect fit for you?<br/>
+            Get in touch and tell us about your skills and interests, we are always happy to consider profiles that could strengthen the team.
+          </p>
+          <div className="mt-10 flex items-center justify-center gap-x-6">
+            <Link
+              href="/contact"
+              className="rounded-md bg-indigo-50 px-3 py-2 text-base font-semibold text-indigo-500 shadow-xs hover:bg-indigo-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              Get in touch
+            </Link>
+          </div>
+        </div>
+      </div>
+
     </div >
   )
 }
