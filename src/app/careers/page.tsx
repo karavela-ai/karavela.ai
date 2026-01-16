@@ -116,7 +116,7 @@ function Careers() {
       <div className="px-6 lg:px-8 mb-24">
         <div className="mx-auto max-w-2xl text-center">
           <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
-            Didn't find the perfect fit for you?<br/>
+            Didn’t find the perfect fit for you?<br/>
             Get in touch and tell us about your skills and interests, we are always happy to consider profiles that could strengthen the team.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
